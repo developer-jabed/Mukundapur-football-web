@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/11e41873bf.js" crossorigin="anonymous"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- tailwind and daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukundapur Football's Team</title>
+</head>
+
+<body style="font-family:Manrope;">
+    
+    <header class="container mx-auto">
+        
+        <nav class="mt-6 lg:mt-14 lg:mb-12 ">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-2xl font-bold lg:text-4xl lg:font-extrabold">Football<span
+                            class="text-red-500">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-red-500 font-bold ">Home</a></li>
+                        <li><a class="font-bold">About</a></li>
+                        <li><a class="font-bold">Pages</a></li>
+                        <li><a class="font-bold">Blog</a></li>
+                        <li><a class="font-bold">Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end ">
+                    <div class="lg:flex justify-center items-center mr-5 hidden ">
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                    </div>
+                    <a class="btn  lg:text-2xl lg:px-6 lg:py-2 text-white bg-red-500">Get Joined</a>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="mb-24 mt-3 ">
+            
+            <div class="container mx-auto ">
+                <div class="carousel w-full h-40 lg:h-full">
+                    <div id="slide1"
+                        class="carousel-item relative w-full bg-[url(./Images/slide2.jpg)] lg:h-[80vh] lg:flex items-center justify-center bg-contain rounded-lg bg-no-repeat lg:bg-cover object-cover">
+
+
+                        <div class="absolute lg:bottom-2 transform -translate-y-1/2 lg:left-12 lg:right-5 top-28">
+
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                        <div
+                            class="absolute lg:bottom-2 transform -translate-y-1/2 lg:left-12 lg:right-5 hidden lg:block">
+
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-black p-8 rounded-lg lg:w-[550px] absolute lg:right-60 lg:bottom-20 hidden lg:block ">
+                        <h1 class="text-white lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h1>
+                        <p class="text-zinc-400 lg:w-2/3">Discover football's true stars! Meet the heroes of the field,
+                            showcasing skill, passion, and determination in every thrilling match.</p>
+                    </div>
+                    
+                    <div id="slide2"
+                        class="carousel-item relative w-full bg-[url(./Images/slidee.(2).jpg)] h-[80vh] flex items-center justify-center rounded-lg bg-no-repeat bg-contain lg:bg-cover object-cover">
+                        <div
+                            class="absolute lg:bottom-2 transform -translate-y-1/2 lg:left-12 lg:right-5 hidden lg:block">
+
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3"
+                        class="carousel-item relative w-full bg-[url(./Images/3.png)] h-[80vh] flex items-center justify-center rounded-lg bg-no-repeat bg-contain lg:bg-cover object-cover">
+                        <div
+                            class="absolute lg:bottom-2 transform -translate-y-1/2 lg:left-12 lg:right-5 hidden lg:block">
+
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="bg-black p-8 rounded-lg lg:w-[550px] lg:absolute lg:right-60 lg:bottom-20 ">
+                    <h1 class="text-white lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h1>
+                    <p class="text-zinc-400 lg:w-2/3">Discover football's true stars! Meet the heroes of the field,
+                        showcasing skill, passion, and determination in every thrilling match.</p>
+                </div>
+        </section>
+        
+
+    </header>
+    <main class="container mx-auto">
+        
+        <section>
+            <div class="text-center py-9 border-y-[1px] border-dashed border-zinc-400">
+                <h1 class="text-4xl font-extrabold mb-6">Professional football Club</h1>
+                <p class="text-zinc-400">Mukundapur football Club: Uniting exceptional talent, fostering sportsmanship, and
+                    igniting passion for football at a professional level. </p>
+            </div>
+            <div class=" lg:flex items-center lg:my-14  justify-around my-7 space-x-5 ">
+                <div class="text-center pb-5">
+                    <div class="radial-progress text-indigo-500 text-3xl font-extrabold w-32 h-32 " style="--value:87;"
+                        role="progressbar">89%</div>
+                    <h1 class="text-2xl font-bold my-9">Prayer Facility</h1>
+                    <p class="text-zinc-400 ">Sacred haven for quiet reflection, serenity, and spiritual connection
+                        through prayer.</p>
+                </div>
+                <div class="text-center pb-5">
+                    <div class="radial-progress text-blue-300 text-3xl font-extrabold w-32 h-32" style="--value:95;"
+                        role="progressbar">95%</div>
+                    <h1 class="text-2xl font-bold my-9">Experienced Coach</h1>
+                    <p class="text-zinc-400">"Sacred sanctuary for peaceful prayer and spiritual contemplation. All
+                        welcome."</p>
+                </div>
+                <div class="text-center pb-5">
+                    <div class="radial-progress text-green-400 text-3xl font-extrabold w-32 h-32" style="--value:90;"
+                        role="progressbar">90%</div>
+                    <h1 class="text-2xl font-bold my-9">Senior Player</h1>
+                    <p class="text-zinc-400">"Sacred haven for serene and heartfelt moments of spiritual reflection."
+                    </p>
+                </div>
+                <div class="text-center pb-5">
+                    <div class="radial-progress text-red-200 text-3xl font-extrabold w-32 h-32" style="--value:80;"
+                        role="progressbar">80%</div>
+                    <h1 class="text-2xl font-bold my-9">Training Ground</h1>
+                    <p class="text-zinc-400 ">"Sacred haven for peaceful contemplation and spiritual connection through
+                        prayer."</p>
+                </div>
+            </div>
+            
+        </section>
+
+        
+        
+
+        <section>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6  ">
+                <div class="p-12">
+                    <div class="bg-green-50 p-12 space-y-4 mb-6 rounded-lg">
+                        <img src="Images/Group 1171275317.png" alt="">
+                        <h2 class="text-zinc-400">Phone Number : </h2>
+                        <p class="font-bold">(+880) 18-93292-965</p>
+                    </div>
+                    <div class="bg-yellow-50 p-12 space-y-4 mb-6 rounded-lg">
+                        <img src="Images/Group 1171275318.png" alt="">
+                        <h2 class="text-zinc-400">Email : </h2>
+                        <p class="font-bold ">jabed1780 <br>@gmail.com</p>
+                    </div>
+                    <div class="bg-cyan-100 p-12 space-y-4 mb-6 rounded-lg">
+                        <img src="Images/Group 1171275321.png" alt="">
+                        <h2 class="text-zinc-400">Location : </h2>
+                        <p class="font-bold"> Mukundapur river side ground</p>
+                    </div>
+
+                </div>
+                <div class="col-span-2 mt-8">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                        <div class="mt-5">
+                            <label class="text-2xl font-bold " for="">Your Name</label>
+                            <input type="text" placeholder="Enter your full name"
+                                class="input input-bordered w-full mt-5" />
+                        </div>
+                        <div class="mt-5">
+                            <label class="text-2xl font-bold " for="">Your Email</label>
+                            <input type="text" placeholder="Enter your email"
+                                class="input input-bordered w-full mt-5" />
+                        </div>
+                        <div class="mt-5">
+                            <label class="text-2xl font-bold " for="">Subject</label>
+                            <input type="text" placeholder="Enter your subject"
+                                class="input input-bordered w-full mt-5" />
+                        </div>
+                        <div class="mt-5">
+                            <label class="text-2xl font-bold " for="">Phone Number</label>
+                            <input type="text" placeholder="Enter your phone number"
+                                class="input input-bordered w-full mt-5" />
+                        </div>
+
+
+
+                    </div>
+                    <div class="mt-5">
+                        <label class="text-2xl font-bold " for="">Message</label>
+                        <textarea placeholder="Write your position qualification"
+                            class="textarea textarea-bordered textarea-lg w-full mt-5 h-[360px] "></textarea>
+                    </div>
+                    <button class="btn btn-active text-white bg-red-600 w-full font-bold">Send Message</button>
+                </div>
+            </div>
+            <div>
+                <div class="text-center py-9   bg-zinc-100 lg:mt-32 mb-32">
+                    <h1 class="text-4xl font-extrabold mb-6">Social Media</h1>
+                    <div class="flex justify-center items-center gap-11">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="">
+       
+        </div>
+    </footer>
+     
+     <footer>
+        <div class="flex justify-center items-center  bg-black">
+            <section class="footer p-10 bg-black text-neutral-content container grid lg:grid-cols-4 grid-cols-1 mx-auto">
+                <nav>
+                    <header class="text-white text-3xl font-extrabold mb-6 mx-auto">Get In Touch</header> 
+                    <a class="link link-hover text-center mx-auto">"Connect with us effortlessly—reliable support,  concerns."</a>
+                    <a class="link link-hover mx-auto"><i class="fa-regular fa-envelope mr-4 text-red-600"></i> jabed1780@gmail.com</a>
+                    <a class="link link-hover mx-auto"><i class="fa-solid fa-phone mr-4 text-red-600"></i> (+62) 123-321-543</a>
+                    
+                  </nav> 
+                  <nav>
+                    <header class="text-white text-[18px] font-extrabold mb-6">Company</header> 
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & Article</a>
+                    <a class="link link-hover">Legal Notice</a>
+                  </nav>  
+                  <nav>
+                    <header class=" text-white text-[18px] font-extrabold mb-6">Support</header> 
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Ticket Support</a>
+                    <a class="link link-hover">Contact Us</a>
+                  </nav> 
+                  <nav class="mx-auto">
+                    <header class="text-white text-[18px] font-extrabold mb-6">Services</header> 
+                    <a class="link link-hover">Academy</a>
+                    <a class="link link-hover">Group Lesson</a>
+                    <a class="link link-hover">Private Lesson</a>
+                    <a class="link link-hover">football for kids</a>
+                    <a class="link link-hover">football for Adult</a>
+                  </nav>
+                </section>
+        </div>
+    </footer>
+</body>
+
+</html>
